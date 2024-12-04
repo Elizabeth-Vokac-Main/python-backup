@@ -1,0 +1,36 @@
+'''
+This file provides annotation for functions with their unittest.
+
+'''
+
+'''
+function1 is temperature conversion from Celsius to Kelvin
+*purpose* convert from one temp unit (Celsius) to another (Kelvin)
+ *user inputs one thing: a float number greater than or equal to -273.15
+ *test cases:
+	if input < -273.15, return error message
+	if input >= -273.15 return converted value
+
+'''
+
+'''
+function2 is a Pythagorean Theorem calculator for right triangle hypotenuse.
+*purpose* find the hypotenuse length of a right triangle with two input
+ side lengths. 
+ *user inputs two things: any two positive, non-zero numbers.
+ *test cases:
+	if input <= 0, return error message
+
+'''
+	 
+'''
+function3 is a mirror function that converts a string into a palindrome
+*purpose* return the string first backward, then forward using index then concatenation
+ *user inputs one thing: one string
+ *test cases:
+	pay attention to spaces
+
+'''
+
+ 
+
